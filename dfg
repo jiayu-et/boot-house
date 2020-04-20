@@ -1,0 +1,71 @@
+[33mcommit 86c5da422664a355a3fa89b01e9fde26849e0a5b[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 22:39:15 2020 +0800
+
+    添加sql建表语句
+
+[33mcommit f991b5d79b5cf529e08af8112aaa5964c967145f[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 22:26:41 2020 +0800
+
+    dev分支开发了Dict.java
+
+[33mcommit 5327b04ba4b9c6114eede8c411acaf6701efb68e[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 22:22:17 2020 +0800
+
+    dev分支开发User.java
+
+[33mcommit bacfd55f824ac640a15a13052e1e0057fcff4aa7[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 22:06:00 2020 +0800
+
+    README.md
+
+[33mcommit 2e0d020710c51d058f07b2acd6d2e5c5f6b7735a[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 21:55:22 2020 +0800
+
+    基本框架搭建完毕
+
+[33mcommit 6c6c30e3e83226b170236f79bac9ddf5399f2df1[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 21:35:19 2020 +0800
+
+    增加其他依赖
+
+[33mcommit bab161788929be04eaac8cccba7fe189281c8d15[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 21:19:50 2020 +0800
+
+    增加thymeleaf starter
+
+[33mcommit d8ee4a3311c64af783eadaea3030b240262fce69[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 21:14:07 2020 +0800
+
+    增加web starter
+
+[33mcommit 8b6b77b0bf85f80d1590967ced2234fb81f285ae[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 20:58:08 2020 +0800
+
+    修改pom,增加boot parent
+
+[33mcommit 172a5fe6a76eb5544000e0c626eec725ea44e78a[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 20:34:58 2020 +0800
+
+    第三次提交, 修改pom.xml
+
+[33mcommit c9f3ad0840ade79a85542b6daf49aa5b4ad8c361[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 20:26:56 2020 +0800
+
+    第二次提交 HouseApp.java 和 application.yml
+
+[33mcommit 8c9cc00083f16a667d473a8f89a12d2a4bb4f367[m
+Author: jiayu <1847438558@qq.com>
+Date:   Mon Apr 20 20:18:02 2020 +0800
+
+    第一次提交 pom.xml和.gitignore

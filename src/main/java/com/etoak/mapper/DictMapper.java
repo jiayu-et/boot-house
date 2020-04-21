@@ -12,5 +12,5 @@ public interface DictMapper {
      * @param groupId
      * @return
      */
-    List<Dict> queryList(@Param("groupId")String groupId);
+    List<Dict> queryList(@Param("groupId") String groupId);
 }

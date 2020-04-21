@@ -25,7 +25,7 @@ public class DictController {
 
     @ApiOperation(value = "根据groupId查询字典列表", notes = "根据groupId查询字典列表")
     @ApiImplicitParam(value = "字典组id", name = "groupId",
-            required = true, paramType = "path")
+        required = true, paramType = "path")
     @GetMapping("/{groupId}")
     public List<Dict> queryList(@PathVariable("groupId") String groupId) {
         log.info("groupId - {}", groupId);

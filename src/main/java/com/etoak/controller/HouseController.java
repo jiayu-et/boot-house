@@ -25,7 +25,7 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/house")
 @Slf4j
-public class HouseController {
+public class  HouseController {
 
     // 读取的默认配置文件获取文件上传目录
     @Value("${upload.dir}")
@@ -124,8 +124,19 @@ public class HouseController {
     public Page<HouseVo> queryList(
             @RequestParam(required = false, defaultValue = "1") int pageNum,
             @RequestParam(required = false, defaultValue = "10") int pageSize,
-            HouseVo houseVo) {
-        log.info("pageNum - {}, pageSize - {}, houseVo - {}", pageNum, pageSize, houseVo);
-        return houseService.queryList(pageNum, pageSize, houseVo);
+            HouseVo houseVo,
+            @RequestParam(value = "rentalList[]", required = false) String[] rentalList) {
+        log.info("pageNum - {}, pageSize - {}, houseVo - {}, rentalList- {}", pageNum, pageSize, houseVo, rentalList);
+        return houseService.queryList(pageNum, pageSize, houseVo, rentalList);
     }
+
+    /**
+     * 跳转到列表页面
+     * @return
+     */
+    @GetMapping("/toList")
+    public String toList() {
+        return "house/list";
+    }
+
 }

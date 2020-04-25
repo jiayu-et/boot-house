@@ -25,7 +25,7 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/house")
 @Slf4j
-public class  HouseController {
+public class HouseController {
 
     // 读取的默认配置文件获取文件上传目录
     @Value("${upload.dir}")
@@ -139,4 +139,27 @@ public class  HouseController {
         return "house/list";
     }
 
+    /**
+     * 更新房源
+     * @param house
+     * @return
+     */
+    @PutMapping("/update")
+    public String update(House house) {
+        log.info("house - {}", house);
+        houseService.updateHouse(house);
+        return "redirect:/house/toList";
+    }
+
+    /**
+     * 根据id删除房源
+     * @param id
+     * @return
+     */
+    @DeleteMapping("/{id}")
+    public String deleteHouse(@PathVariable("id") int id) {
+        log.info("delete id - {}", id);
+        houseService.deleteById(id);
+        return "redirect:/house/toList";
+    }
 }

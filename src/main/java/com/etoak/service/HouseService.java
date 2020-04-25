@@ -23,4 +23,18 @@ public interface HouseService {
      */
     Page<HouseVo> queryList(int pageNum, int pageSize, HouseVo houseVo, String[] rentalList);
 
+
+    /**
+     * 更新房源
+     * @param house
+     * @return
+     */
+    int updateHouse(House house);
+
+    /**
+     * 根据id删除房源
+     * @param id
+     * @return
+     */
+    int deleteById(int id);
 }
